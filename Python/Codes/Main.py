@@ -63,6 +63,7 @@ def main():
             print("    - ", Prodi.getDosen()[i].getName())
             i += 1
     
+    print()
     print(" ====================== ")
 
     print()

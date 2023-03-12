@@ -124,8 +124,8 @@ Main program {<br />
 <br />
 Alasan urutan kelasnya:<br />
 1. Hubungan 'Human' - 'Sivitas' = inheritance :<br />
-      &nbsp;- Secara objek antara mahasiswa dan sivitas itu sama yaitu manusia / human dan atribut pada kelas human dipakai semua di dalam kelas sivitas.<br />
-      &nbsp;- Atribut pada human dipakai semua di sivitas.<br />
+      &nbsp;- Secara objek antara mahasiswa dan sivitas itu sama yaitu manusia / human.<br />
+      &nbsp;- Atribut pada kelas human dipakai semua di dalam kelas sivitas<br />
 2. Hubungan 'Mahasiswa' & 'Dosen' - 'Sivitas' = inheritance:<br />
       &nbsp;- Sivitas akademika artinya warga di lingkungan akademis tertentu, maka mahasiswa & dosen termasuk sivitas(akademika).<br />
       &nbsp;- Jadi menurut saya, base classnya adalah 'Human', lalu derived class 'Human' adalah 'Sivitas' (akademik),<br />

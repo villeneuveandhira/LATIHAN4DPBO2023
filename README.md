@@ -37,13 +37,13 @@ program dijalankan (screenshot/screen record)<br />
 
 <br />
 Latihan 4 DPBO -> buat kelas:<br />
-- human
-- sivitas-akademik
-- mahasiswa
-- dosen
-- course
-- prodi
-- header (untuk menghindari re-definition)
+- human<br />
+- sivitas-akademik<br />
+- mahasiswa<br />
+- dosen<br />
+- course<br />
+- prodi<br />
+- header (untuk menghindari re-definition)<br />
 <br />
 Berikut adalah kelas-kelasnya:<br />
 Class 'Human' {<br />
@@ -53,8 +53,6 @@ Class 'Human' {<br />
             &nbsp;&nbsp;- Jenis_kelamin,<br />
       &nbsp;-> constructor<br />
       &nbsp;-> public (setter-getter) :<br />
-            &nbsp;&nbsp;a. set<br />
-            &nbsp;&nbsp;b. get<br />
       &nbsp;-> destructor<br />
 }<br />
 <br />
@@ -65,9 +63,7 @@ Class 'Sivitas' is a 'Human' {<br />
             &nbsp;&nbsp;- Fakultas,<br />
       &nbsp;-> constructor:<br />
             &nbsp;&nbsp;- access(NIK, Nama, Jenis_kelamin),<br />
-      &nbsp;-> public (setter-getter, dan methods) :<br />
-            &nbsp;&nbsp;a. set<br />
-            &nbsp;&nbsp;b. get<br />
+      &nbsp;-> public (setter-getter) :<br />
       &nbsp;-> destructor<br />
 }<br />
 <br />
@@ -76,9 +72,7 @@ Class 'Mahasiswa' is a 'Sivitas' {<br />
             &nbsp;&nbsp;- NIM,<br />
       &nbsp;-> constructor<br />
             &nbsp;&nbsp;- access(NIK, Nama, Jenis_kelamin, E-mail, Asal_universitas, Fakultas),<br />
-      &nbsp;-> public (setter-getter, dan methods) :<br />
-            &nbsp;&nbsp;a. set<br />
-            &nbsp;&nbsp;b. get<br />
+      &nbsp;-> public (setter-getter) :<br />
       &nbsp;-> destructor<br />
 }<br />
 <br />
@@ -89,9 +83,7 @@ Class 'Dosen' is a 'Sivitas' {<br />
             &nbsp;&nbsp;- keahlian,<br />
       &nbsp;-> constructor<br />
             &nbsp;&nbsp;- access(NIK, Nama, Jenis_kelamin, E-mail, Asal_universitas, Fakultas),<br />
-      &nbsp;-> public (setter-getter, dan methods) :<br />
-            &nbsp;&nbsp;a. set<br />
-            &nbsp;&nbsp;b. get<br />
+      &nbsp;-> public (setter-getter) :<br />
       &nbsp;-> destructor<br />
 }<br />
 <br />
@@ -100,9 +92,7 @@ Class 'Course' {<br />
             &nbsp;&nbsp;- kode_matkul,<br />
             &nbsp;&nbsp;- nama_matkul,<br />
       &nbsp;-> constructor<br />
-      &nbsp;-> public (setter-getter, dan methods) :<br />
-            &nbsp;&nbsp;a. set<br />
-            &nbsp;&nbsp;b. get<br />
+      &nbsp;-> public (setter-getter) :<br />
       &nbsp;-> destructor<br />
 }<br />
 <br />
@@ -114,9 +104,7 @@ Class 'Prodi' {<br />
             &nbsp;&nbsp;- component 'mahasiswa',<br />
             &nbsp;&nbsp;- component 'dosen',<br />
       &nbsp;-> constructor<br />
-      &nbsp;-> public (setter-getter, dan methods) :<br />
-            &nbsp;&nbsp;a. set<br />
-            &nbsp;&nbsp;b. get<br />
+      &nbsp;-> public (setter-getter) :<br />
       &nbsp;-> destructor<br />
 }<br />
 <br />
@@ -130,7 +118,6 @@ Main program {<br />
             &nbsp;&nbsp;2. Data matkul,<br />
             &nbsp;&nbsp;3. Data mahasiswa;<br />
             &nbsp;&nbsp;4. Data dosen;<br />
-            
       &nbsp;- Data detail seluruh mahasiswa :<br />
       &nbsp;- Data detail seluruh dosen :<br />
 }<br />

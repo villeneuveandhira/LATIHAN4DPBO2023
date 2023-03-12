@@ -100,7 +100,7 @@ Class 'Prodi' {<br />
       &nbsp;-> private atr :<br />
             &nbsp;&nbsp;- nama_prodi,<br />
             &nbsp;&nbsp;- kode_prodi,<br />
-            &nbsp;&nbsp;- component 'nama_matkul',<br />
+            &nbsp;&nbsp;- component 'course',<br />
             &nbsp;&nbsp;- component 'mahasiswa',<br />
             &nbsp;&nbsp;- component 'dosen',<br />
       &nbsp;-> constructor<br />
@@ -118,8 +118,8 @@ Main program {<br />
             &nbsp;&nbsp;2. Data matkul,<br />
             &nbsp;&nbsp;3. Data mahasiswa;<br />
             &nbsp;&nbsp;4. Data dosen;<br />
-      &nbsp;- Data detail seluruh mahasiswa :<br />
-      &nbsp;- Data detail seluruh dosen :<br />
+            &nbsp;&nbsp;5. Data detail seluruh mahasiswa;<br />
+            &nbsp;&nbsp;6. Data detail seluruh dosen;<br />
 }<br />
 <br />
 Alasan urutan kelasnya:<br />

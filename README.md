@@ -129,7 +129,7 @@ Alasan urutan kelasnya:<br />
 2. Hubungan 'Mahasiswa' & 'Dosen' - 'Sivitas' = inheritance:<br />
       &nbsp;- Sivitas akademika artinya warga di lingkungan akademis tertentu, maka mahasiswa & dosen termasuk sivitas(akademika).<br />
       &nbsp;- Jadi menurut saya, base classnya adalah 'Human', lalu derived class 'Human' adalah 'Sivitas' (akademik),<br />
-      &nbsp;&nbsp;dan kelas 'Sivitas' inherits dengan kelas 'Mahasiswa' dan kelas 'dosen'.
+      &nbsp;&nbsp;dan kelas 'Sivitas' inherits dengan kelas 'Mahasiswa' dan kelas 'dosen'.<br />
 3. Hubungan 'Prodi' - 'Mahasiswa' & 'Dosen' = composite:<br />
       &nbsp;- bukan sesama objek tapi program studi memiliki mahasiswa dan dosen dalam suatu sivitas akademik.<br />
 4. Hubungan 'Prodi' - 'Course' = comopsite:<br />

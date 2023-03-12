@@ -46,27 +46,18 @@ int main() {
     for(ProgramStudi prodi : study) {
         cout << "Program Studi    : " << prodi.getProdi() << endl;
         cout << "Kode             : " << prodi.getKode() << endl;
-        // i = 0;
         cout << "   List matkul :" << endl;
         for (Course matkul : course) {
             cout << "    - " << matkul.getNameMK() << endl;
-            // cout << "    - " << prodi.getMatkul()[i].getNameMK() << endl;
-            // i++;
         }
         cout << endl;
-        // i = 0;
         cout << "    Data Mahasiswa :" << endl;
         for (Mahasiswa mhs : student) {
             cout << "    - "<< mhs.getName() << endl;
-            // cout << "    - "<< prodi.getMahasiswa()[i].getName() << endl;
-            // i++;
         }
-        // i = 0;
         cout << "    Data Dosen : " << endl;
         for (Dosen dsn : teacher) {
             cout << "    - " << dsn.getName() << endl;
-            // cout << "    - " << prodi.getDosen()[i].getName() << endl;
-            // i++;
         }
     }
 

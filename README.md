@@ -137,7 +137,7 @@ Alasan urutan kelasnya:<br />
 
 # Documentation () {}
 
-![Screenshot 2023-03-12 200658](https://user-images.githubusercontent.com/101118033/224547734-1a586e93-8779-46f5-94a6-431a4cbe453f.png)
+![image](https://user-images.githubusercontent.com/101118033/224548317-16bd7c86-8d75-4ef0-80bd-39db48c29638.png)
 
 # Format janji
 Saya Villeneuve Andhira Suwandhi NIM 2108067 mengerjakan Latihan 4<br />
